@@ -1,0 +1,17 @@
+.grid-view {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin: 20px;
+    padding: 8%;
+  }
+  .student {
+    background-color: rgba(132, 133, 135, 0.526);
+    border: 2px solid rgba(0, 0, 0, 0.844);
+    padding: 10px;
+    width: 300px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
